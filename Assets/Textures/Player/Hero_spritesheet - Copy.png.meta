@@ -1,0 +1,1777 @@
+fileFormatVersion: 2
+guid: 8ca3e8e3a00b1154383fb13a97e5c0af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3724416019990880673
+    second: Idle_Left1
+  - first:
+      213: 4995500720102424085
+    second: Idle_Left3
+  - first:
+      213: -4549542384351538350
+    second: Hero_spritesheet - Copy_2
+  - first:
+      213: -6831941393650397053
+    second: Idle_Left2
+  - first:
+      213: 3690295398537749642
+    second: Idle_Left4
+  - first:
+      213: 5148061674080909316
+    second: Idle_Left5
+  - first:
+      213: -2296220741639230150
+    second: Idle_Left_Hit1
+  - first:
+      213: 1457398227510958811
+    second: Idle_Left_Hit2
+  - first:
+      213: 8435484819298327391
+    second: Idle_Left_Hit3
+  - first:
+      213: 8656800525101441068
+    second: Idle_Left_Hit4
+  - first:
+      213: 3808350123135156633
+    second: Idle_Left_Hit5
+  - first:
+      213: -8391066257320507489
+    second: Idle_RIght1
+  - first:
+      213: -8370157238236830132
+    second: Idle_Right2
+  - first:
+      213: 2280348656852260297
+    second: Idle_Right3
+  - first:
+      213: 2261512801496396446
+    second: Idle_Right4
+  - first:
+      213: 3850485473419779890
+    second: Idle_Right5
+  - first:
+      213: 4408619701273629729
+    second: Idle_Right_Hit1
+  - first:
+      213: -3405717244835248381
+    second: Idle_Right_Hit2
+  - first:
+      213: -7022600936085595744
+    second: Idle_Right_Hit3
+  - first:
+      213: 1283344702547270267
+    second: Idle_Right_Hit4
+  - first:
+      213: 1049394202556560933
+    second: Idle_Right_Hit5
+  - first:
+      213: 568651764205703939
+    second: Jump_Left1
+  - first:
+      213: 1213734204525561138
+    second: Jump_Left2
+  - first:
+      213: -811118199193085423
+    second: Jump_Left3
+  - first:
+      213: -6926395800334841059
+    second: Jump_Left4
+  - first:
+      213: -863020434088256970
+    second: Jump_Left5
+  - first:
+      213: -9007363815863520518
+    second: Hit_Jump_Left1
+  - first:
+      213: -9112616016970603084
+    second: Hit_Jump_Left2
+  - first:
+      213: -4633227999594461986
+    second: Hit_Jump_left3
+  - first:
+      213: 3282588692671090492
+    second: Hit_Jump_left4
+  - first:
+      213: -7944197895703162389
+    second: Hit_Jump_Left5
+  - first:
+      213: 7145522824033924956
+    second: Jump_Right1
+  - first:
+      213: -5642249957539385246
+    second: Jump_Right2
+  - first:
+      213: -7068887360976092655
+    second: Jump_Right3
+  - first:
+      213: 3518994480555046848
+    second: Jump_Right4
+  - first:
+      213: 7491998596781646377
+    second: Jump_Right5
+  - first:
+      213: 5908114184050843229
+    second: Hit_Jump_Right1
+  - first:
+      213: -1042249447788912805
+    second: Hit_Jump_Right2
+  - first:
+      213: -1202876739521947233
+    second: Hit_Jump_Right3
+  - first:
+      213: -5073695196126875624
+    second: Hit_Jump_Right4
+  - first:
+      213: 2668162318596212117
+    second: Hit_Jump_Right5
+  - first:
+      213: -2266291119665563944
+    second: Run_Left1
+  - first:
+      213: -7753821835163663118
+    second: Run_Left2
+  - first:
+      213: 5377262749857738107
+    second: Run_Left3
+  - first:
+      213: 9059286565611066048
+    second: Run_Left4
+  - first:
+      213: 3519084780003976501
+    second: Run_Left5
+  - first:
+      213: 8677221604691671972
+    second: Hit_Run_Left1
+  - first:
+      213: 5305186126971523573
+    second: Hit_Run_Left2
+  - first:
+      213: 3003877366762503921
+    second: Hit_Run_Left3
+  - first:
+      213: -8376265489466680371
+    second: Hit_Run_Left4
+  - first:
+      213: -3252516351184168277
+    second: Hit_Run_Left5
+  - first:
+      213: 9162759030708146639
+    second: Run_Right1
+  - first:
+      213: 1893421910847238669
+    second: Run_Right2
+  - first:
+      213: 2718210823304742228
+    second: Run_Right3
+  - first:
+      213: -1171057454836175614
+    second: Run_Right4
+  - first:
+      213: -6541879134023452269
+    second: Run_Right5
+  - first:
+      213: -7577940415723816006
+    second: Hit_Run_Right1
+  - first:
+      213: 9135574433367831504
+    second: Hit_Run_Right2
+  - first:
+      213: -7586790666680349176
+    second: Hit_Run_Right3
+  - first:
+      213: -6692293758588199882
+    second: Hit_Run_Right4
+  - first:
+      213: -8336475397318497882
+    second: Hit_Run_Right5
+  - first:
+      213: -8197255573688260324
+    second: Idle_Left1
+  - first:
+      213: 1333584392617114747
+    second: Idle_Left3
+  - first:
+      213: -2911010614728739933
+    second: Idle_Left2
+  - first:
+      213: -8324644838059776248
+    second: Idle_Left4
+  - first:
+      213: -3425022555033123274
+    second: Idle_Left5
+  - first:
+      213: 543842240871231684
+    second: Idle_Left_Hit1
+  - first:
+      213: 1765033832225791098
+    second: Idle_Left_Hit2
+  - first:
+      213: 9859829671035870
+    second: Idle_Left_Hit3
+  - first:
+      213: 3401735744448355529
+    second: Idle_Left_Hit4
+  - first:
+      213: 2322067513537270610
+    second: Idle_Left_Hit5
+  - first:
+      213: 7045393526739664998
+    second: Idle_RIght1
+  - first:
+      213: 3379187735825108862
+    second: Idle_Right2
+  - first:
+      213: -4323663794815317436
+    second: Idle_Right3
+  - first:
+      213: 5037633072318988919
+    second: Idle_Right4
+  - first:
+      213: -5134646117627523977
+    second: Idle_Right5
+  - first:
+      213: -8609229078833339594
+    second: Idle_Right_Hit1
+  - first:
+      213: -4661039408913014113
+    second: Idle_Right_Hit2
+  - first:
+      213: -8537407856797663141
+    second: Idle_Right_Hit3
+  - first:
+      213: -4207289844499813035
+    second: Idle_Right_Hit4
+  - first:
+      213: -5502939210020286432
+    second: Idle_Right_Hit5
+  - first:
+      213: -5983862321891380565
+    second: Jump_Left1
+  - first:
+      213: 9210416443648514099
+    second: Jump_Left2
+  - first:
+      213: 3838073873627857757
+    second: Jump_Left3
+  - first:
+      213: -5775258128499258655
+    second: Jump_Left4
+  - first:
+      213: 6418871887237034529
+    second: Jump_Left5
+  - first:
+      213: -767621120121689539
+    second: Hit_Jump_Left1
+  - first:
+      213: 812305812722309809
+    second: Hit_Jump_Left2
+  - first:
+      213: 8451594300605331420
+    second: Hit_Jump_left3
+  - first:
+      213: -328439819705145754
+    second: Hit_Jump_left4
+  - first:
+      213: 8244665464705987320
+    second: Hit_Jump_Left5
+  - first:
+      213: -9219285043883464143
+    second: Jump_Right1
+  - first:
+      213: -2112444500329998756
+    second: Jump_Right2
+  - first:
+      213: 6512893948508511774
+    second: Jump_Right3
+  - first:
+      213: 1248929767942398830
+    second: Jump_Right4
+  - first:
+      213: -5602602164461898379
+    second: Jump_Right5
+  - first:
+      213: 2008622870424782928
+    second: Hit_Jump_Right1
+  - first:
+      213: -187306300270696218
+    second: Hit_Jump_Right2
+  - first:
+      213: -930835793943398556
+    second: Hit_Jump_Right3
+  - first:
+      213: -3220319391711301158
+    second: Hit_Jump_Right4
+  - first:
+      213: 7054191839191885744
+    second: Hit_Jump_Right5
+  - first:
+      213: 3518690515183941595
+    second: Run_Left1
+  - first:
+      213: 3742846560276801018
+    second: Run_Left2
+  - first:
+      213: 7706405495144021520
+    second: Run_Left3
+  - first:
+      213: 9182877987734266999
+    second: Run_Left4
+  - first:
+      213: -4455467893577727661
+    second: Run_Left5
+  - first:
+      213: -2395911577990938322
+    second: Hit_Run_Left1
+  - first:
+      213: 4369240352112416768
+    second: Hit_Run_Left2
+  - first:
+      213: -565018818553945230
+    second: Hit_Run_Left3
+  - first:
+      213: -3351320729744559361
+    second: Hit_Run_Left4
+  - first:
+      213: -3892606951047940338
+    second: Hit_Run_Left5
+  - first:
+      213: 6899618588826280972
+    second: Run_Right1
+  - first:
+      213: 98849677218473920
+    second: Run_Right2
+  - first:
+      213: 8567017118839254815
+    second: Run_Right3
+  - first:
+      213: -5220354602612143400
+    second: Run_Right4
+  - first:
+      213: 6981441161989905351
+    second: Run_Right5
+  - first:
+      213: 4406579638248930081
+    second: Hit_Run_Right1
+  - first:
+      213: 2919047890711522313
+    second: Hit_Run_Right2
+  - first:
+      213: 5933550261856160559
+    second: Hit_Run_Right3
+  - first:
+      213: -965145068244169543
+    second: Hit_Run_Right4
+  - first:
+      213: 883366041698147203
+    second: Hit_Run_Right5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Left1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6563
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e5ba4dc57305cc0800000000000000
+      internalID: -3724416019990880673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left3
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 6563
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eb9e80075935540800000000000000
+      internalID: 4995500720102424085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 6563
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3805e29ef711031a0800000000000000
+      internalID: -6831941393650397053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left4
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 6563
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84e91aec10963330800000000000000
+      internalID: 3690295398537749642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left5
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 6563
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408356521d6917740800000000000000
+      internalID: 5148061674080909316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left_Hit1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5961
+        width: 254
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3da5b0c66f2220e0800000000000000
+      internalID: -2296220741639230150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left_Hit2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 5961
+        width: 254
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda131f57f7b93410800000000000000
+      internalID: 1457398227510958811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left_Hit3
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 5961
+        width: 254
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1a7200ccd01570800000000000000
+      internalID: 8435484819298327391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left_Hit4
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 5961
+        width: 254
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20261e3632232870800000000000000
+      internalID: 8656800525101441068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Left_Hit5
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 5961
+        width: 254
+        height: 588
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99149cd624af9d430800000000000000
+      internalID: 3808350123135156633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_RIght1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 5363
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9705ad52b1fc8b80800000000000000
+      internalID: -8391066257320507489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 5363
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46aabcb65a37db80800000000000000
+      internalID: -8370157238236830132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right3
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 5363
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5d7b7850d65af10800000000000000
+      internalID: 2280348656852260297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right4
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 5363
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92f03439e1826f10800000000000000
+      internalID: 2261512801496396446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right5
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 5363
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fdcf7232caf6530800000000000000
+      internalID: 3850485473419779890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right_Hit1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 4765
+        width: 253
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124143ca2409e2d30800000000000000
+      internalID: 4408619701273629729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right_Hit2
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 4765
+        width: 253
+        height: 591
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3074c28c5367cb0d0800000000000000
+      internalID: -3405717244835248381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right_Hit3
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 4765
+        width: 250
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9da4de7a5ba8e90800000000000000
+      internalID: -7022600936085595744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right_Hit4
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 4765
+        width: 254
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a95bf153b5fc110800000000000000
+      internalID: 1283344702547270267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Right_Hit5
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 4765
+        width: 254
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526fcb0a772309e00800000000000000
+      internalID: 1049394202556560933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Left1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4160
+        width: 323
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303516644c144e700800000000000000
+      internalID: 568651764205703939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Left2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 4171
+        width: 290
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235cc7014dc08d010800000000000000
+      internalID: 1213734204525561138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Left3
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 4181
+        width: 269
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11add3a9b445eb4f0800000000000000
+      internalID: -811118199193085423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Left4
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 4174
+        width: 285
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bc84b97bf70ef90800000000000000
+      internalID: -6926395800334841059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Left5
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 4163
+        width: 294
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a1448dc7fe504f0800000000000000
+      internalID: -863020434088256970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Left1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3558
+        width: 323
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af27fb0255a6ff280800000000000000
+      internalID: -9007363815863520518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Left2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 3569
+        width: 290
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5aee5630c798180800000000000000
+      internalID: -9112616016970603084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_left3
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 3583
+        width: 269
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed447c8aea773bfb0800000000000000
+      internalID: -4633227999594461986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_left4
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3580
+        width: 285
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fcf5a26091e8d20800000000000000
+      internalID: 3282588692671090492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Left5
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3562
+        width: 294
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be11531aa1a80c190800000000000000
+      internalID: -7944197895703162389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Right1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2960
+        width: 294
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57fcfc562ff92360800000000000000
+      internalID: 7145522824033924956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Right2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2978
+        width: 285
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f6eabe83b2b1b0800000000000000
+      internalID: -5642249957539385246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Right3
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2982
+        width: 269
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11285c3d56446ed90800000000000000
+      internalID: -7068887360976092655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Right4
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2971
+        width: 290
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c73b0ce5daf5d030800000000000000
+      internalID: 3518994480555046848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Right5
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 2960
+        width: 323
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92225ea870de8f760800000000000000
+      internalID: 7491998596781646377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Right1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2362
+        width: 294
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e1cc04c86ddf150800000000000000
+      internalID: 5908114184050843229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Right2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 2380
+        width: 285
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fd13936af2981f0800000000000000
+      internalID: -1042249447788912805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Right3
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 2382
+        width: 265
+        height: 581
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d6308af58e4fe0800000000000000
+      internalID: -1202876739521947233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Right4
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2369
+        width: 290
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8107048c91d9699b0800000000000000
+      internalID: -5073695196126875624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Jump_Right5
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 2358
+        width: 323
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59582030e77370520800000000000000
+      internalID: 2668162318596212117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Left1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1785
+        width: 341
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d636b6eb348c80e0800000000000000
+      internalID: -2266291119665563944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Left2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1785
+        width: 439
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f407675f14e46490800000000000000
+      internalID: -7753821835163663118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Left3
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1778
+        width: 375
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7de5352bffdf9a40800000000000000
+      internalID: 5377262749857738107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Left4
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1782
+        width: 443
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c257bd122d09bd70800000000000000
+      internalID: 9059286565611066048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Left5
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1785
+        width: 398
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535ee9666fc46d030800000000000000
+      internalID: 3519084780003976501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Left1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1194
+        width: 341
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abfdf8531fab6870800000000000000
+      internalID: 8677221604691671972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Left2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1194
+        width: 439
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1d775acaecf9940800000000000000
+      internalID: 5305186126971523573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Left3
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1187
+        width: 375
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef6b2cc8aefa920800000000000000
+      internalID: 3003877366762503921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Left4
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1184
+        width: 446
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb99fbaae681cb80800000000000000
+      internalID: -8376265489466680371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Left5
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1194
+        width: 398
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa94857c9dbcd2d0800000000000000
+      internalID: -3252516351184168277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 604
+        width: 398
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19cd3cac8a82f70800000000000000
+      internalID: 9162759030708146639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 604
+        width: 443
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02bdf53239c64a10800000000000000
+      internalID: 1893421910847238669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right3
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 600
+        width: 375
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45583b3975609b520800000000000000
+      internalID: 2718210823304742228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right4
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 604
+        width: 439
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20daae803719fbfe0800000000000000
+      internalID: -1171057454836175614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right5
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 604
+        width: 341
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399fdf486939635a0800000000000000
+      internalID: -6541879134023452269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Right1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 399
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbb4bf675fb5d690800000000000000
+      internalID: -7577940415723816006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Right2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2
+        width: 446
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b7087b8418ce70800000000000000
+      internalID: 9135574433367831504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Right3
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 0
+        width: 376
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ec44fc51e46b690800000000000000
+      internalID: -7586790666680349176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Right4
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 5
+        width: 439
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c59caa8423023a0800000000000000
+      internalID: -6692293758588199882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_Run_Right5
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 0
+        width: 341
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a92c007bc3ee4c80800000000000000
+      internalID: -8336475397318497882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
