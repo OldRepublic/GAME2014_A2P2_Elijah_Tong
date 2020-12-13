@@ -2,8 +2,9 @@
 Name:Elijah Tong
 Student Number: 101126281
 Source File: Start_Button_Script.cs
-Last Modified: 2020-11-19
-Description: When you click the back button this will take the player to the first instruction screen
+Last Modified: 2020-12-12
+Description: When you click the back button this will take the player to the first instruction screen. When the button is
+clicked you will get a button clicked sound effect
 ***/
 
 using System.Collections;
@@ -12,10 +13,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Back_Button_Instruction_Screen2 : MonoBehaviour
 {
+    AudioSource ClickSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        ClickSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,5 +29,6 @@ public class Back_Button_Instruction_Screen2 : MonoBehaviour
     public void OnBack_Button_Instruction_Screen2()
     {
         SceneManager.LoadScene("Instructions_Screen");
+        ClickSound.Play();
     }
 }

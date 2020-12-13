@@ -2,7 +2,7 @@
 Name:Elijah Tong
 Student Number: 101126281
 Source File: Start_Button_Script.cs
-Last Modified: 2020-11-19
+Last Modified: 2020-12-12
 Description: When you click the Instructions button this will take the player to the first instructions screen
 ***/
 
@@ -12,10 +12,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Instructions_Button_Script : MonoBehaviour
 {
+    AudioSource ClickSound;
     // Start is called before the first frame update
     void Start()
     {
-        
+        ClickSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,5 +28,6 @@ public class Instructions_Button_Script : MonoBehaviour
     public void OnInstructions_Button_ScriptPressed()
     {
         SceneManager.LoadScene("Instructions_Screen");
+        ClickSound.Play();
     }
 }
