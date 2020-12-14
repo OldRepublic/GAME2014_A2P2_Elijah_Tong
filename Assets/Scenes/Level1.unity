@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 340554542}
   m_Layer: 0
   m_Name: DeathPlane
-  m_TagString: Untagged
+  m_TagString: DeathPlane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2996,7 +2996,7 @@ MonoBehaviour:
   JS_Horizontal_Sensitivity: 0.1
   JS_Vertical_Sensitivity: 0.1
   Horizontal_Force: 500
-  VerticalForce: 10000
+  Vertical_Force: 0
   isGrounded: 0
   SpawnPoint: {fileID: 472390818}
 --- !u!61 &1483281615

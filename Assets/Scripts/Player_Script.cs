@@ -15,7 +15,7 @@ public class Player_Script : MonoBehaviour
     public float JS_Horizontal_Sensitivity;// JS == joystick
     public float JS_Vertical_Sensitivity;
     public float Horizontal_Force;
-    public float VerticalForce;
+    public float Vertical_Force;
     public bool isGrounded;
     public Transform SpawnPoint;
     bool LastDir_Right = true;
@@ -45,25 +45,40 @@ public class Player_Script : MonoBehaviour
                 RigidBody2d.AddForce(Vector2.right * Horizontal_Force * Time.deltaTime);
                 Animator.SetInteger("AnimationState", 3);
                 LastDir_Right = true;
+
+                if (joystick.Vertical > JS_Vertical_Sensitivity)
+                {//jumps right
+                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == true)
+                    Animator.SetInteger("AnimationState", 5);
+                    LastDir_Right = true;
+                }
             }
             else if(joystick.Horizontal < -JS_Horizontal_Sensitivity)
             {//moving left
                 RigidBody2d.AddForce(Vector2.left * Horizontal_Force * Time.deltaTime);
                 Animator.SetInteger("AnimationState", 2);
                 LastDir_Right = false;
+
+                if (joystick.Vertical > JS_Vertical_Sensitivity)
+                {//jump left
+                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == false)
+                    Animator.SetInteger("AnimationState", 4);
+                    LastDir_Right = false;
+                }
             }
+            /***
             else if(joystick.Vertical > JS_Vertical_Sensitivity && joystick.Horizontal > JS_Horizontal_Sensitivity)
             {//jumps right
-                RigidBody2d.AddForce(Vector2.up * Horizontal_Force * Time.deltaTime);
+                RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == true)
                 Animator.SetInteger("AnimationState", 5);
                 LastDir_Right = true;
             }
             else if(joystick.Vertical > JS_Vertical_Sensitivity && joystick.Horizontal < -JS_Horizontal_Sensitivity)
             {//jump left
-                RigidBody2d.AddForce(Vector2.up * Horizontal_Force * Time.deltaTime);
+                RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == false)
                 Animator.SetInteger("AnimationState", 4);
                 LastDir_Right = false;
-            }
+            }***/
             else
             {
                 if (LastDir_Right)
@@ -74,6 +89,15 @@ public class Player_Script : MonoBehaviour
                     Animator.SetInteger("AnimationState", 1);
             }
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        isGrounded = true;
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        isGrounded = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
