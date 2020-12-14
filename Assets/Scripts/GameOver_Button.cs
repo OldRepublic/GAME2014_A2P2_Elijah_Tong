@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: GameOver_Button.cs
 Last Modified: 2020-12-12
 Description: When you click the GameOver button this will take the player to the GameOver screen. Also when the button is
 clicked you will get a button click sound effect

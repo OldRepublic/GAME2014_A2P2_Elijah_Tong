@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: Instructions_Button_Script.cs
 Last Modified: 2020-12-12
 Description: When you click the Instructions button this will take the player to the first instructions screen
 ***/

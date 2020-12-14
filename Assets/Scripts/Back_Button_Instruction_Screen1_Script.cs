@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: Back_Button_Instruction_Script_Screen1_Script.cs
 Last Modified: 2020-12-12
 Description: When you click the back button this will take the player to the back to the start screen. On button click a button
 click sound will play

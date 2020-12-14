@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: Pause_Menu_Button_Script.cs
 Last Modified: 2020-12-12
 Description: When you click the pause menu button this will take the player to the pause menu screen. Also when you click the
 button a click sound will play.

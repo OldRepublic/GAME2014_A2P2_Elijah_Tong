@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: Next_Button_Instruction_Screen1_Script.cs
 Last Modified: 2020-12-12
 Description: When you click the next button this will take the player to the next instructions screen. Plays a click sound
 on click

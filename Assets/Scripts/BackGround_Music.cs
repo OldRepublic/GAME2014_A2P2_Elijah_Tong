@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/***
+Name:Elijah Tong
+Student Number: 101126281
+Source File: BackGround_Music.cs
+Last Modified: 2020-12-12
+Description: This script will play the background music when the script is run and loop it when the track ends.
+***/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

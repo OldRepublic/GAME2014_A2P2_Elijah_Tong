@@ -1,7 +1,7 @@
 ﻿/********
 Name:Elijah Tong
 Student Number: 101126281
-Source File: Start_Button_Script.cs
+Source File: Resume_Button.cs
 Last Modified: 2020-12-12
 Description: When you click the resume button this will take the player back to the gameplay screen. When you click the button
 a sound will play.
