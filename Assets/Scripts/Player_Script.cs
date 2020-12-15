@@ -2,8 +2,8 @@
 Name:Elijah Tong
 Student Number: 101126281
 Source File: Player_Script.cs
-Last Modified: 2020-12-13
-Description: This script will move the player in the direction of the joystick.
+Last Modified: 2020-12-14
+Description: This script will move the player in the direction of the joystick and respawn the player on contact with the death plane.
 ***/
 using System.Collections;
 using System.Collections.Generic;
@@ -18,9 +18,13 @@ public class Player_Script : MonoBehaviour
     public float Vertical_Force;
     public bool isGrounded;
     public Transform SpawnPoint;
-    bool LastDir_Right = true;
+
+
     private Rigidbody2D RigidBody2d;
-  
+    public GameObject MovePlatform;
+    bool LastDir_Right = true;
+    float JumpPad_Force;
+
     private Animator Animator;
     // Start is called before the first frame update
     void Start()
@@ -48,7 +52,7 @@ public class Player_Script : MonoBehaviour
 
                 if (joystick.Vertical > JS_Vertical_Sensitivity)
                 {//jumps right
-                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == true)
+                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime * JumpPad_Force);
                     Animator.SetInteger("AnimationState", 5);
                     LastDir_Right = true;
                 }
@@ -61,24 +65,11 @@ public class Player_Script : MonoBehaviour
 
                 if (joystick.Vertical > JS_Vertical_Sensitivity)
                 {//jump left
-                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == false)
+                    RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime * JumpPad_Force);
                     Animator.SetInteger("AnimationState", 4);
                     LastDir_Right = false;
                 }
             }
-            /***
-            else if(joystick.Vertical > JS_Vertical_Sensitivity && joystick.Horizontal > JS_Horizontal_Sensitivity)
-            {//jumps right
-                RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == true)
-                Animator.SetInteger("AnimationState", 5);
-                LastDir_Right = true;
-            }
-            else if(joystick.Vertical > JS_Vertical_Sensitivity && joystick.Horizontal < -JS_Horizontal_Sensitivity)
-            {//jump left
-                RigidBody2d.AddForce(Vector2.up * Vertical_Force * Time.deltaTime);// && LastDir_Right == false)
-                Animator.SetInteger("AnimationState", 4);
-                LastDir_Right = false;
-            }***/
             else
             {
                 if (LastDir_Right)
@@ -94,10 +85,12 @@ public class Player_Script : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isGrounded = true;
+       
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
         isGrounded = false;
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -105,4 +98,28 @@ public class Player_Script : MonoBehaviour
         if (collision.gameObject.CompareTag("DeathPlane"))
             transform.position = SpawnPoint.position;
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("JellyBouncePad"))//doubles jump force while on tile
+        {
+            JumpPad_Force = 2.0f;
+            isGrounded = true;
+            
+        }
+        else//resets jump force back to normal
+        {
+            JumpPad_Force = 1.0f;
+            isGrounded = true;
+        }
+
+        if (collision.gameObject.CompareTag("MovingPlatform")) //moves the player with the platform
+        {
+            //Moving_Platform MovingPlatform = collision.gameObject.GetComponent<Moving_Platform>();
+            //transform.position += new Vector3(transform.position.x + MovingPlatform.direction, 0.0f, 0.0f);
+            MovePlatform = GameObject.FindGameObjectWithTag("MovingPlatformParent");
+            Moving_Platform movingPlatform = MovePlatform.gameObject.GetComponent<Moving_Platform>();
+            transform.position += new Vector3(movingPlatform.HorizontalSpeed * movingPlatform.direction * Time.deltaTime, 0.0f, 0.0f);
+        }
+    }
+    
 }
