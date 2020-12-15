@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DeathPlane
   - JellyBouncePad
+  - MovingPlatform
+  - MovingPlatformParent
   layers:
   - Default
   - TransparentFX
