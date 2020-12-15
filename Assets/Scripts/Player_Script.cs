@@ -3,7 +3,8 @@ Name:Elijah Tong
 Student Number: 101126281
 Source File: Player_Script.cs
 Last Modified: 2020-12-14
-Description: This script will move the player in the direction of the joystick and respawn the player on contact with the death plane.
+Description: This script will move the player in the direction of the joystick and respawn the player on contact with the death plane. This script also provides the functionality to the jump pad platform by increasing your jump force while
+collision is detected between you the player and the platform.
 ***/
 using System.Collections;
 using System.Collections.Generic;
